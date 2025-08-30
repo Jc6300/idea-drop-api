@@ -15,7 +15,10 @@ const PORT = process.env.PORT || 8000;
 connectDB();
 
 // CORS Config
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://idea-drop-ui-three.vercel.app/",
+];
 
 // middleware
 app.use(
